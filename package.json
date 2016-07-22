@@ -1,0 +1,17 @@
+{
+  "name": "knowledges-frontend",
+  "version": "1.0.0",
+  "description": "毕业生知识库项目",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.firstshare.cn:zhanghw/knowledges-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fis3": "^3.4.17"
+  }
+}

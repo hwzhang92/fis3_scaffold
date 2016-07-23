@@ -7,10 +7,8 @@ fis.match('/static/sea.js', {
 });
 
 fis.hook('cmd', {
-  baseUrl: './components/',
-
   paths: {
-    "jquery": "../component_modules/jquery/1.10.1/jquery.js",
+    "jquery": "/component_modules/jquery/1.10.1/jquery.js",
   }
 });
 

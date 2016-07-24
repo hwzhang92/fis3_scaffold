@@ -19,3 +19,14 @@ fis.hook('cmd', {
 fis.match('::packager', {
   postpackager: fis.plugin('loader')
 });
+
+fis.media('prod')
+	.match('/{mock,test}/**',{
+		release:false
+	})
+	.match('*.js',{
+		optimizer: fis.plugin('uglify-js')
+	})
+	.match('*.{js,css,png}', {
+	  useHash: true
+	})

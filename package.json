@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "毕业生知识库项目",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf output && fis3 release -cd ./output && fis3 server start --www ./output/ --no-daemon",
+    "release": "rm -rf output && fis3 release -cd output",
+    "product": "rm -rf output && fis3 release prod -cd output",
+    "clean": "rm -rf output"
   },
   "repository": {
     "type": "git",
@@ -11,9 +15,16 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-hook-node_modules": "^2.2.7",
+    "fis3-postpackager-loader": "^2.0.5",
+    "fis3-preprocessor-js-require-css": "^0.1.0",
+    "fis3-preprocessor-js-require-file": "^0.1.0"
+  },
   "dependencies": {
-    "fis3": "^3.4.17",
-    "fis3-hook-cmd": "^0.1.2",
-    "fis3-postpackager-loader": "^2.0.5"
+    "handlebars": "^3.0.3",
+    "jquery": "^1.12.4",
+    "lodash": "^4.14.0"
   }
 }

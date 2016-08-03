@@ -1,2 +1,3 @@
-step1: npm install
-step2: npm dev
+- step0: 全局安装fis3
+- step1: npm install
+- step2: npm run start

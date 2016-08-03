@@ -1,0 +1,7 @@
+#container{
+	border: 1px solid black;
+}
+
+.example {
+  transition: width 1s linear .2s; /* IE 10, Fx 16+, Op 12.1+ */
+}

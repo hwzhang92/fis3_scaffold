@@ -16,6 +16,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "fis-optimizer-html-minifier": "0.0.9",
+    "fis-parser-handlebars-3.x": "0.0.1",
+    "fis-parser-jdists": "^1.0.8",
+    "fis-parser-less-2.x": "^0.1.4",
+    "fis-parser-node-sass": "^0.2.1",
+    "fis-preprocessor-cssprefixer": "0.0.2",
     "fis3-hook-commonjs": "^0.1.25",
     "fis3-hook-node_modules": "^2.2.7",
     "fis3-postpackager-loader": "^2.0.5",
@@ -25,6 +31,6 @@
   "dependencies": {
     "handlebars": "^3.0.3",
     "jquery": "^1.12.4",
-    "lodash": "^4.14.0"
+    "lodash": "^4.14.1"
   }
 }

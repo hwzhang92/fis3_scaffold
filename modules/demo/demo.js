@@ -1,6 +1,6 @@
 var $ = require('jquery');
-var _ = require('lodash/fp');
+var _ = require('lodash');
 exports.version = {
 	"jquery": $().jquery,
-	"_": _.VERSION
+	"_":_.VERSION
 };
